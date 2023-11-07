@@ -1,0 +1,2 @@
+mainColor : #2AAFC0 
+secondColor : #6976c5

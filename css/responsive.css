@@ -1,0 +1,42 @@
+@media  screen and (max-width: 992px) {
+
+    #mainNav{
+        /*max-width: calc(100% - 150px);*/
+        background-color: #111;
+        max-width: calc(100% - 100px);
+        margin: 30px auto 0;
+        /*max-height: 60vh;*/
+    }
+
+    #top-nav .nav-link{
+        margin: 5px;
+    }
+
+    #top-nav .nav-link:not(.nav-link-active){
+        color: #fff !important;
+    }
+
+    .home-box h1{
+        font-size: 45px;
+    }
+
+    .service{
+        border: 0 !important;
+    }
+}
+
+@media  screen and (max-width: 768px){
+    .home-box{
+        width: 75%;
+    }
+
+    .home-box h1{
+        font-size: 30px;
+    }
+
+    .home-box p{
+        font-size: 14px;
+    }
+
+
+}
